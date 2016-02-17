@@ -5,7 +5,6 @@ body {
 }
 
 .m-signature-pad {
-  position: absolute;
   box-sizing: border-box;
   /*font-size: 10px;*/
   width: 100%;
