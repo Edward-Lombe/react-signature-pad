@@ -320,11 +320,8 @@ export default class SignaturePad extends React.Component {
         <div className="m-signature-pad--body">
           <canvas ref="cv"></canvas>
         </div>
-        { this.props.clearButton &&
-          <div className="m-signature-pad--footer">
-            <button className="btn btn-danger" onClick={this.clear.bind(this)}>Clear</button>
-          </div>
-        }
+        <br/>
+        <button className="btn btn-danger" onClick={() => this.clear()}>Clear</button>
       </div>
     );
   }
