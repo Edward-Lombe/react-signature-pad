@@ -44,6 +44,7 @@ export default class SignaturePad extends React.Component {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     this._reset();
+    return false;
   }
 
   toDataURL(imageType, quality) {
